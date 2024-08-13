@@ -1,0 +1,92 @@
+Category container styles
+.category {
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Header styles */
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Title styles */
+.category-header h2 {
+  font-size: 22px;
+  color: #333;
+  margin: 0;
+}
+
+/* Delete button styles */
+.delete-category-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.delete-category-button:hover {
+  background-color: #c82333;
+  transform: translateY(-2px);
+}
+
+/* Widgets container styles */
+.category-widgets {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Widget styles */
+.widget {
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Widget title styles */
+.widget-title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Widget description styles */
+.widget-description {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Add Widget button styles */
+.add-widget-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-widget-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
